@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="logo"><img src="../../public/main_logo.png" alt="" /></div>
+        <div className="logo"><img src="../../public/main_logo.png" alt="" /><b>Taste Bites</b></div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             {data[0].navbarLinks.map((element) => (
